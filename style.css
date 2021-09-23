@@ -1,0 +1,54 @@
+header {
+color: rgb(133, 73, 51);
+font-size: 3em;
+text-align: center;
+}
+img {
+
+  height: 300px;
+  width: 450px;
+}
+
+body{
+background-color:#F5A497;
+font-size: 1em;
+font-family: papyrus, fantasy;
+}
+h1 {
+  font-size: large;
+  color: #7d8e95;
+}
+
+h2 {
+  font-size: large;
+  color: #7d8e95;
+}
+
+h3 {
+  font-size: large;
+  color: #7d8e95;
+}
+
+  nav {
+  background-color: #997bc9;
+}
+
+div {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  /* .image{
+    position:absolute;
+    right:auto
+  } */
+
+
+  //FLEXBOX
+
+#someId {
+  display: flex;
+  flex-direction: column-reverse;
+}
