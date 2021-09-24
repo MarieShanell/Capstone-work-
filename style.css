@@ -30,7 +30,7 @@ h3 {
 }
 
   nav {
-  background-color: #997bc9;
+  background-color: #F5A4;
 }
 
 div {
@@ -40,15 +40,24 @@ div {
     padding-left: 10px;
   }
 
-  /* .image{
-    position:absolute;
-    right:auto
-  } */
+  img {
+    display: block;
+    margin-right: auto;
+    width: 40%;
+  }
+
+
 
 
   //FLEXBOX
 
-#someId {
+#id1 {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction:row;
+}
+
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none;
+  }
 }
