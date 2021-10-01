@@ -3,6 +3,10 @@ color: rgb(133, 73, 51);
 font-size: 3em;
 text-align: center;
 }
+#homeinfo {
+  font-family: 'Vidaloka', serif;
+  color: aliceblue;
+}
 img {
 
   height: 300px;
