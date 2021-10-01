@@ -7,15 +7,12 @@ const router = new Navigo(window.location.origin);
 
 router
   .on({
-    "/": () => render(state.Home),
-    ":page": params => {
-      let page = capitalize(params.page);
-      render(state[page]);
-    }
+    ":page": params => render(state[capitalize(params.page)]),
+    "/": () => render(state.Home)
   })
   .resolve();
 
-function render(st) {
+function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
   ${Header(st)}
   ${Nav(state.Links)}

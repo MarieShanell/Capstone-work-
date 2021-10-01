@@ -1,4 +1,5 @@
-export default () => `
+import html from "html-literal";
+export default () => html`
   <section id="Resources">
     <h3>RESOURCE LINKS</h3>
     <ul>

@@ -1,4 +1,5 @@
-export default () => `
+import html from "html-literal";
+export default () => html`
   <section id="Core Pillars">
     <h2>6 CORE PILLARS FOR A HEALTHY LIFE</h2>
     <li>

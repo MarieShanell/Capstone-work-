@@ -1,5 +1,7 @@
 import html from "html-literal";
+import img1 from "../images/capstone-pic.jpeg";
 export default () => html`
+  <img src="${img1}" alt="a picture" />
   <section id="homeinfo">
     <h1>OPTIMAL HEALTH AND WELL-BEING</h1>
     <p>

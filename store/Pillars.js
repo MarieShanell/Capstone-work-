@@ -1,4 +1,4 @@
 export default {
   header: "PILLARS",
-  page: "PILLARS"
+  page: "Pillars"
 };
