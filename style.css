@@ -7,7 +7,7 @@ text-align: center;
   font-family: 'Vidaloka', serif;
   color: rgb(95, 56, 5);
 }
-img {
+#img {
 
   height: 300px;
   width: 250px;
@@ -44,11 +44,11 @@ div {
     padding-left: 10px;
   }
 
-  img {
+  * img {
     display: block;
     margin-right: auto;
     width: 35%;
-  }
+  } */
 
 
 
@@ -65,3 +65,11 @@ div {
     display: none;
   }
 }
+
+
+/* * #nutrition img {
+  float: left;
+  width: 25%;
+  height: auto;
+  margin-right: 1rem;
+} */ */
