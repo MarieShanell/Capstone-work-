@@ -1,7 +1,9 @@
 import html from "html-literal";
 import img1 from "../images/capstone-pic.jpeg";
-export default () => html`
+export default (st) => html`
 
+Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+    like ${kelvinToFahrenheit(st.weather.feelsLike)}F
 
 
 
@@ -63,4 +65,6 @@ export default () => html`
   />
 `;
 
+const kelvinToFahrenheit = kelvinTemp =>
+  Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
 
