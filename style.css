@@ -6,6 +6,7 @@ text-align: center;
 #homeinfo {
   font-family: 'Vidaloka', serif;
   color: rgb(95, 56, 5);
+  ;
 }
 #img {
 
@@ -14,7 +15,7 @@ text-align: center;
 }
 
 body{
-background-color:#F5A497;
+background-color:#ffb4a2;
 font-size: 1.5em;
 font-family: 'Vidaloka', serif;
 }
@@ -34,7 +35,8 @@ h3 {
 }
 
   nav {
-  background-color: #F5A4;
+  text-align: center;
+  background-color: #ffb4a2;
 }
 
 div {
@@ -60,16 +62,67 @@ div {
   flex-direction:row;
 }
 
-@media (min-width: 550px) {
+ @media (min-width: 550px) {
   nav > .fa-bars {
-    display: none;
+    display:none;
   }
 }
 
 
 /* * #nutrition img {
   float: left;
-  width: 25%;
+  widt 25%;
   height: auto;
   margin-right: 1rem;
-} */
+}h:
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: ##ffb4a2;
+    font-size: 20px;
+  }
+
+  .logo{
+    margin-left: 30%;
+    color: #7d8e95;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .logo_header{
+    display: flex;
+    margin-left: 6%;
+  }
+
+  .main_nav{
+    display: flex;
+    width: 50%;
+    float: right;
+    margin-right: 2%;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .main_nav li:hover{
+    background-color: gray
+  }
+
+  .main_nav li{
+    display: inline;
+    color: #ffffff;
+  }
+  .main_nav li a{
+    color: #ffffff;
+  }
