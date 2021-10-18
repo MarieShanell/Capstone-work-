@@ -2,7 +2,7 @@ import html from "html-literal";
 export default () => html`
 
 
-  <!-- FORMSPREE -->
+
   <!-- modify this form HTML and place wherever you want your form -->
   <form action="https://formspree.io/f/xoqyrbjr" method="POST">
     <label>
