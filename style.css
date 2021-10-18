@@ -8,36 +8,39 @@ text-align: center;
   color: rgb(95, 56, 5);
   ;
 }
-#img {
-
-  height: 300px;
-  width: 250px;
+img {
+  height: 500px;
+  width: 550px;
 }
+.home-images {
+  display: flex;
+  justify-content: center;
+
+}
+
+.home-header {
+  
+}
+/* .PICTURES {
+  display: flex;
+  row-gap: 12px;
+} */
 
 body{
 background-color:#ffb4a2;
 font-size: 1.5em;
 font-family: 'Vidaloka', serif;
 }
-h1 {
-  font-size: large;
-  color: #7d8e95;
-}
-
-h2 {
-  font-size: large;
-  color: #7d8e95;
-}
-
-h3 {
-  font-size: large;
+h1,h2,h3 {
+  font-size: 30px;
   color: #7d8e95;
 }
 
   nav {
   text-align: center;
-  background-color: #ffb4a2;
+  background-color: #a5721b;
 }
+
 
 div {
     padding-top: 5px;
@@ -46,11 +49,7 @@ div {
     padding-left: 10px;
   }
 
-  * img {
-    display: block;
-    margin-right: auto;
-    width: 35%;
-  } */
+
 
 
 
@@ -115,14 +114,20 @@ div {
     justify-content: space-between;
     list-style: none;
   }
-  .main_nav li:hover{
-    background-color: gray
+  /* .main_nav li:hover{
+    background-color: gray */
   }
 
   .main_nav li{
     display: inline;
-    color: #ffffff;
+    color: #f8f8f8;
   }
   .main_nav li a{
     color: #ffffff;
+  }
+
+
+  .nutrition-pictures {
+    display: flex;
+    justify-content: space-evenly;
   }
