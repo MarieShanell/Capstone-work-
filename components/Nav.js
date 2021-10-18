@@ -1,17 +1,17 @@
 import html from "html-literal";
 export default links => html`
-  <nav>
-  <!-- <i class="fas fa-bars"></i>
-  <ul class="hidden--mobile nav-links">
-</ul class="list-unstyled">
-    </ul>
-
-</ul> -->
-
+  <nav class="navbar">
+  <div class="logo_header">
+        <a href="#" class="logo">Optimal Health</a>
+        <button class="navbar_toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+<ul class="main_nav">
       ${links
         .map(
           link =>
-            `<li><a href="/${link.title}" title="${link.title}" data-navigo>${link.text}</a></li>`
+            `<li><a href="/${link.title}" title="${link.title}" class="nav_links" data-navigo>${link.text}</a></li>`
         )
         .join("")}
     </ul>

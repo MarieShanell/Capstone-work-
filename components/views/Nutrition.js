@@ -1,9 +1,13 @@
 import html from "html-literal";
+import nutrition1 from "../images/nutritionpic.jpg"
+import nutrition2 from "../images/mealgathering.jpg"
+import nutrition3 from "../images/nutrition.jpg"
 export default () => html`
 
+
   <section id="Nutrition">
-    <h2>Why is Healthy Nutrition Important </h2>
-    <img src="https://images.pexels.com/photos/2280569/pexels-photo-2280569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+    <h2>Why is Healthy Nutrition Important</h2>
+
     <p>
       Food and nutrition are the way that we get fuel, providing energy for our
       bodies. We need to replace nutrients in our bodies with a new supply every
@@ -30,5 +34,12 @@ export default () => html`
       people with diabetes. Alcohol can be dangerous to health in amounts more
       than one serving per day for a woman and two per day for a man.
 
-  </section>
+
+      </p>
+    <div class="nutrition-pictures">
+      <div><img src="${nutrition1}" alt="vegetable pic"/></div>
+      <div><img src="${nutrition2}" alt="meal gathering pic"/></div>
+      <div><img src="${nutrition3}" alt="fruit pic"/></div>
+</div>
+</section>
 `;

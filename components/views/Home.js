@@ -1,14 +1,15 @@
 import html from "html-literal";
 import img1 from "../images/capstone-pic.jpeg";
+import meditation from "../images/soothingpic.jpeg"
+
 
 export default (st) => html`
 
-Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
-    like ${kelvinToFahrenheit(st.weather.feelsLike)}F
 
 
 
   <section id="homeinfo">
+
 <h1>OPTIMAL HEALTH AND WELL-BEING</h1>
     <p>
       Optimal health is a holistic focus with the aim of attaining the best
@@ -41,11 +42,15 @@ Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
     <li>MINDFULNESS: This is the simple act of recognizing what’s going on inside of ourselves and what’s going on around us, in the present moment and without judgement. Mindfulness is a tool that helps us manage thoughts and emotions, notice more of what’s happening in a situation, and immerse ourselves in the present moment as it unfolds.</li>
     <li>SOCIAL WELLNESS</li>
 
-    <img src="${img1}" alt="a picture" />
-    <!-- <img src="${img1}" alt="meditation pic" /> -->
+<div class="home-images"> <img src="${img1}" alt="a picture" />
+    <img src="${meditation}" alt="meditation pic" /></div>
+
+
+    Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+    like ${kelvinToFahrenheit(st.weather.feelsLike)}F
   </section>
 `;
-
 const kelvinToFahrenheit = kelvinTemp =>
   Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
+
 

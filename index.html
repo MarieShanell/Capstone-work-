@@ -5,48 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <nav> <i class="fas fa-bars"></i></nav>
-    <title>HEALTH IS WEALTH</title>
-    <header>OPTIMAL HEALTH</header>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    rel="stylesheet"
+  />
+<title>HEALTH IS WEALTH</title>
+    <!-- <header>OPTIMAL HEALTH</header> -->
   </head>
- <body>
+<body>
 
 
-    <script src="index.js"></script>
-
-</body>
-</html>
-
-<!-- <body>
-
-  <nav class="navbar">
-    <div class="logo_header">
-        <a href="#" class="logo">Optimal Health</a>
-        <button class="navbar_toggle">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-
-
-      <ul class="main_nav">
-        <li>
-          <a href="#" class="nav_links">Home</a>
-        </li>
-        <li>
-          <a href="#" class="nav_links">Nutrition</a>
-        </li>
-        <li>
-          <a href="#" class="nav_links">Resources</a>
-        </li>
-        <li>
-          <a href="#" class="nav_links">Contact</a>
-        </li>
-        <li>
-          <a href="#" class="nav_links">Connect With Others</a>
-        </li>
-      </ul> -->
-</nav>
     <div id="root"></div>
+    <script src="index.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/
+  formbutton("create", {
+    action: "https://formspree.io/f/xoqyrbjr",
+    title: "How can we help?",
+    fields: [
+      {
+        type: "email",
+        label: "Email:",
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
   </body>
   </html>
 
