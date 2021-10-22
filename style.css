@@ -114,9 +114,10 @@ div {
     justify-content: space-between;
     list-style: none;
   }
+
   /* .main_nav li:hover{
     background-color: gray */
-  }
+
 
   .main_nav li {
     display: inline;
