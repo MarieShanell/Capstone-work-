@@ -6,7 +6,9 @@
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html",
-    "server:watch": "nodemon --watch ./server -e js ./server/index.js"
+    "server:watch": "nodemon --watch ./server -e js ./server/index.js",
+    "start-mongo": "mongodb-runner"
+
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "html-literal": "^1.1.0",
     "lodash": "^4.17.21",
     "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
     "navigo": "^7.1.3",
     "parcel-bundler": "^1.12.5",
     "yargs-parser": ">=13.1.2"
