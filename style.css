@@ -6,17 +6,23 @@ text-align: center;
 #homeinfo {
   font-family: 'Vidaloka', serif;
   color: rgb(95, 56, 5);
+
   ;
 }
 img {
   height: 500px;
-  width: 550px;
+  width: 450px;
+  border: 2px solid #9E3680
+  ;
 }
 .home-images {
+
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly
+  ;
 
 }
+
 
 .home-header {
 
@@ -28,25 +34,28 @@ img {
 
 body{
 background-color:#ffb4a2;
-font-size: 1.5em;
+font-size: 1.6em;
 font-family: 'Vidaloka', serif;
 }
 h1,h2,h3 {
   font-size: 30px;
-  color: #7d8e95;
+  text-align: center;
+  color: #207792;
 }
 
   nav {
+    border: 2px solid #050505;
   text-align: center;
-  background-color: #a5721b;
+  background-color: #80B8FF;
+  padding-right: 50px;
 }
 
 
 div {
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
   }
 
 
@@ -90,9 +99,9 @@ div {
     justify-content: space-between;
     width: 100vw;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     background-color: ##ffb4a2;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .logo{
@@ -108,9 +117,9 @@ div {
 
   .main_nav{
     display: flex;
-    width: 50%;
-    float: right;
-    margin-right: 2%;
+    width: 65%;
+    float: left;
+    margin-right: 8%;
     justify-content: space-between;
     list-style: none;
   }
@@ -121,14 +130,23 @@ div {
 
   .main_nav li {
     display: inline;
-    color: #f8f8f8;
+    color: #fdfcfc;
   }
   .main_nav li a{
-    color: #ffffff;
+    color: #feffff;
+    font-weight: bold;
+    ;
   }
 
 
   .nutrition-pictures {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    ;
+  }
+
+  .nutrition {
+    padding:;
   }
