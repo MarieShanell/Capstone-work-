@@ -1,6 +1,7 @@
 import html from "html-literal";
 import img1 from "../images/capstone-pic.jpeg";
-import meditation from "../images/soothingpic.jpeg"
+import img2 from "../images/soothingpic.jpeg"
+import img3 from "../images/selfcare.jpeg"
 
 
 export default (st) => html`
@@ -18,32 +19,37 @@ export default (st) => html`
     </p>
 
     <h2> CORE PILLARS FOR A HEALTHY LIFE</h2>
-    <li>
+    <p>
       MEDICAL: Establishing and maintaining a primary care physician is
       important. Establishing a relationship with a primary care physician will
       help understand possible medical risk and will also evaluate your overall
       state of health
-    </li>
-    <li>
+</p>
+    <p>
       FITNESS: Exercising regularly helps keeps your body mass index -BMI- at a
       healthy range which will decrease the risk of diabetes or heart disease.
       Regular exercise is a major component in managing joint and muscle
       diseases. Exercising is also a key component with managing stress levels.
-    </li>
-    <li>
+    </p>
+    <p>
       RESTORATIVE SLEEP: Sleeping serves as the main support for the immune system. Sleep
       also serves an essential purpose for the mind, body , and soul .
       According to statistics, the average individual normally gets about 6.8
       hours of sleep
-    </li>
+    </p>
 
-    <li>NUTRITION</li>
+    <p>NUTRITION
+      obtaining a healthy nutrition is an essential role in maintaining a healthy lifestyle
+    </p>
 
-    <li>MINDFULNESS: This is the simple act of recognizing what’s going on inside of ourselves and what’s going on around us, in the present moment and without judgement. Mindfulness is a tool that helps us manage thoughts and emotions, notice more of what’s happening in a situation, and immerse ourselves in the present moment as it unfolds.</li>
-    <li>SOCIAL WELLNESS</li>
+    <p>MINDFULNESS: This is the simple act of recognizing what’s going on inside of ourselves and what’s going on around us, in the present moment and without judgement. Mindfulness is a tool that helps us manage thoughts and emotions, notice more of what’s happening in a situation, and immerse ourselves in the present moment as it unfolds.</p>
+    <p>SOCIAL WELLNESS</p>
 
-<div class="home-images"> <img src="${img1}" alt="a picture" />
-    <img src="${meditation}" alt="meditation pic" /></div>
+<div class="home-images">
+    <div><img src="${img1}" alt="meditation pic"/></div>
+   <div><img src="${img3}" alt="selfcare"/></div>
+   <div><img src="${img2}" alt="soothing pic"/></div>
+</div>
 
 
     Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels

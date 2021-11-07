@@ -2,10 +2,12 @@ import html from "html-literal";
 import nutrition1 from "../images/nutritionpic.jpg"
 import nutrition2 from "../images/mealgathering.jpg"
 import nutrition3 from "../images/nutrition.jpg"
+import nutrition4 from "../images/pineapplepic.jpeg"
+import nutrition5 from "../images/shrimp.jpeg"
+import nutrition6 from "../images/cozy.jpeg"
 export default () => html`
 
-
-  <section id="Nutrition">
+<div class="Nutritionclass"> <section id="Nutrition">
     <h2>Why is Healthy Nutrition Important</h2>
 
     <p>
@@ -35,11 +37,16 @@ export default () => html`
       than one serving per day for a woman and two per day for a man.
 
 
-      </p>
+      </p></div>
+
     <div class="nutrition-pictures">
       <div><img src="${nutrition1}" alt="vegetable pic"/></div>
       <div><img src="${nutrition2}" alt="meal gathering pic"/></div>
       <div><img src="${nutrition3}" alt="fruit pic"/></div>
+      <div><img src="${nutrition4}" alt="pineapplepic"/></div>
+      <div><img src="${nutrition5}" alt="shrimp"/></div>
+      <div><img src="${nutrition6}" alt="cozy"/></div>
+
 </div>
 </section>
 `;
