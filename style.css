@@ -148,11 +148,30 @@ div {
     ;
   }
 
-  
+
 
 
   .nutrition {
     padding:;
   }
 
+  .selfcarepics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .selfcarepics img {
+    margin: 10px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+    max-width: 25vw;
+  }
 
+​.footer {
+  text-align: center;
+  background-color: aqua;
+  color: #9E3680;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: ;
+}

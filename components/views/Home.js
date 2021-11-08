@@ -45,6 +45,9 @@ export default (st) => html`
     <p>MINDFULNESS: This is the simple act of recognizing what’s going on inside of ourselves and what’s going on around us, in the present moment and without judgement. Mindfulness is a tool that helps us manage thoughts and emotions, notice more of what’s happening in a situation, and immerse ourselves in the present moment as it unfolds.</p>
     <p>SOCIAL WELLNESS</p>
 
+    <p>
+We also see the word wellness related with health. Wellness is defined as: the quality or state of being in good health especially as an actively sought goal. Today, healthy individuals are on a constant pursuit for optimal wellness. It’s not sufficient to be free from disease or pain, people want to be healthier in other areas of life. Why is that? Living healthy is personal and relative to feeling good, mentally, emotionally and physically, and this is the most basic understanding we have of our health.  But feeling good is a personal definition.</p>
+
 <div class="home-images">
     <div><img src="${img1}" alt="meditation pic"/></div>
    <div><img src="${img3}" alt="selfcare"/></div>
