@@ -46,8 +46,9 @@ h1,h2,h3 {
   nav {
     border: 2px solid #050505;
   text-align: center;
-  background-color: #80B8FF;
+  background-color: #717579;
   padding-right: 50px;
+
 }
 
 
@@ -147,6 +148,11 @@ div {
     ;
   }
 
+  
+
+
   .nutrition {
     padding:;
   }
+
+

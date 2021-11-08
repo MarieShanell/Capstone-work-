@@ -37,7 +37,8 @@ export default () => html`
       than one serving per day for a woman and two per day for a man.
 
 
-      </p></div>
+      </p>
+    </div>
 
     <div class="nutrition-pictures">
       <div><img src="${nutrition1}" alt="vegetable pic"/></div>
