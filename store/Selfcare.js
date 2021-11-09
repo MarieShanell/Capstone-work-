@@ -1,4 +1,4 @@
 export default {
   header: "Optimal Health",
- page: "Contact"
+ page: "Selfcare"
 };

@@ -31,16 +31,23 @@ Lie down where the afternoon sun streams in a window.
 Listen to music.</p>
 </div>
 
-<div>
-<div class="selfcarepics"></div>
-<div><img src="${selfcare1}" alt="reading bath pic"/></div></div>
-<div><img src="${selfcare2}" alt="namaste pic"/></div></div>
-<div><img src="${selfcare3}" alt="sitting in floating chair"/></div></div>
-<div><img src="${selfcare4}" alt="cozy pic"/></div></div>
-<div><img src="${selfcare5}" alt="rocks"/></div></div>
-<div><img src="${selfcare6}" alt="yoga meditation"/></div></div>
-<div><img src="${selfcare7}" alt="listening to music"/></div></div>
+
+<div class="selfcarepics">
+<div><img src="${selfcare1}" alt="reading bath pic"/></div>
+<div><img src="${selfcare2}" alt="namaste pic"/></div>
+<div><img src="${selfcare3}" alt="sitting in floating chair"/></div>
+<div><img src="${selfcare4}" alt="cozy pic"/></div>
+<div><img src="${selfcare5}" alt="rocks"/></div>
+<div><img src="${selfcare6}" alt="yoga meditation"/></div>
+<div><img src="${selfcare7}" alt="listening to music"/></div>
 </div>
+
+
+<form action="">
+  <label for="question">What did you do to take care of yourself today?</label>
+  <input type="text" name="question">
+</form>
+
 </section>
 
 

@@ -7,26 +7,21 @@ text-align: center;
   font-family: 'Vidaloka', serif;
   color: rgb(95, 56, 5);
 
-  ;
 }
 img {
   height: 500px;
   width: 450px;
   border: 2px solid #9E3680
-  ;
+
 }
 .home-images {
 
   display: flex;
   justify-content: space-evenly
-  ;
+
 
 }
 
-
-.home-header {
-
-}
 /* .PICTURES {
   display: flex;
   row-gap: 12px;
@@ -136,7 +131,6 @@ div {
   .main_nav li a{
     color: #feffff;
     font-weight: bold;
-    ;
   }
 
 
@@ -145,26 +139,19 @@ div {
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    ;
   }
 
-
-
-
-  .nutrition {
-    padding:;
-  }
 
   .selfcarepics {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .selfcarepics img {
+  /* .selfcarepics img {
     margin: 10px;
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
     max-width: 25vw;
-  }
+  } */
 
 ​.footer {
   text-align: center;
@@ -173,5 +160,5 @@ div {
   padding: 20px;
   position: fixed;
   bottom: 0;
-  width: ;
+
 }
