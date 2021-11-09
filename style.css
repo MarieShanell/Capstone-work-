@@ -90,6 +90,15 @@ div {
     text-decoration: none;
   }
 
+  a:hover {
+    background-color:rgb(180, 39, 169);
+
+  }
+
+  /* .underline-on-hover:hover {
+    text-decoration: underline;
+} */
+
   .navbar{
     display: flex;
     justify-content: space-between;
@@ -148,6 +157,7 @@ div {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    flex-direction: row;
   }
   /* .selfcarepics img {
     margin: 10px;
@@ -173,4 +183,11 @@ div {
   background-color:purple;
   color: aqua;
   text-align: center;
+}
+
+
+.form {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(22, 20, 146);
 }
