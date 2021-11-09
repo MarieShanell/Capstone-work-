@@ -6,6 +6,8 @@ import selfcare4 from "../images/cozy.jpeg"
 import selfcare5 from "../images/rocks.jpeg"
 import selfcare6 from "../images/yogameditation.jpeg"
 import selfcare7 from "../images/music.jpeg"
+import selfcare8 from "../images/birds.jpg"
+import selfcare9 from "../images/forest.jpg"
 export default () => html`
 
 
@@ -40,6 +42,8 @@ Listen to music.</p>
 <div><img src="${selfcare5}" alt="rocks"/></div>
 <div><img src="${selfcare6}" alt="yoga meditation"/></div>
 <div><img src="${selfcare7}" alt="listening to music"/></div>
+<div><img src="${selfcare8}" alt="birds flying"/></div>
+<div><img src="${selfcare9}" alt="forest"/></div>
 </div>
 
 
