@@ -33,7 +33,7 @@ font-size: 1.6em;
 font-family: 'Vidaloka', serif;
 }
 h1,h2,h3 {
-  font-size: 30px;
+  font-size: 34px;
   text-align: center;
   color: #207792;
 }
@@ -41,7 +41,7 @@ h1,h2,h3 {
   nav {
     border: 2px solid #050505;
   text-align: center;
-  background-color: #7c22b1;
+  background-color: purple;
   padding-right: 50px;
 
 }
@@ -101,14 +101,15 @@ div {
   }
 
   .logo{
-    margin-left: 30%;
-    color: #7d8e95;
-    font-size: 27px;
+    margin-left: 60%;
+    color: aqua;
+    font-size: 30px;
     font-weight: bold;
   }
   .logo_header{
     display: flex;
-    margin-left: 6%;
+    margin-left: 0%;
+
   }
 
   .main_nav{
@@ -118,10 +119,11 @@ div {
     margin-right: 8%;
     justify-content: space-between;
     list-style: none;
+
   }
 
   /* .main_nav li:hover{
-    background-color: gray */
+    background-color: gray  */
 
 
   .main_nav li {
@@ -129,7 +131,7 @@ div {
     color: #fdfcfc;
   }
   .main_nav li a{
-    color: #feffff;
+    color: #faf9f9;
     font-weight: bold;
   }
 
@@ -161,4 +163,14 @@ div {
   position: fixed;
   bottom: 0;
 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:purple;
+  color: aqua;
+  text-align: center;
 }
