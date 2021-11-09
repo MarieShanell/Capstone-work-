@@ -46,8 +46,9 @@ h1,h2,h3 {
   nav {
     border: 2px solid #050505;
   text-align: center;
-  background-color: #80B8FF;
+  background-color: #7c22b1;
   padding-right: 50px;
+
 }
 
 
@@ -147,6 +148,30 @@ div {
     ;
   }
 
+
+
+
   .nutrition {
     padding:;
   }
+
+  .selfcarepics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .selfcarepics img {
+    margin: 10px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+    max-width: 25vw;
+  }
+
+​.footer {
+  text-align: center;
+  background-color: aqua;
+  color: #9E3680;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: ;
+}
