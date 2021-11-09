@@ -33,11 +33,12 @@ Lie down where the afternoon sun streams in a window.
 Listen to music.</p>
 </div>
 
+<div class= "form">
 <form action="">
   <label for="question">What did you do to take care of yourself today?</label>
   <input type="text" name="question">
 </form>
-
+</div>
 
 <div class="selfcarepics">
 <div><img src="${selfcare1}" alt="reading bath pic"/></div>
