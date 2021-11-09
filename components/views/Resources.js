@@ -1,7 +1,7 @@
 import html from "html-literal";
 export default () => html`
   <section id="Resources">
-    <h3>RESOURCE LINKS</h3>
+    <h3>RESOURCES</h3>
     <ul>
       <a
         href="https://athome.yogaworks.com/"
