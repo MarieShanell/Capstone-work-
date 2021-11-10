@@ -54,9 +54,10 @@ We also see the word wellness related with health. Wellness is defined as: the q
    <div><img src="${img2}" alt="soothing pic"/></div>
 </div>
 
-
-    Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
-    like ${kelvinToFahrenheit(st.weather.feelsLike)}F
+<div>
+    <H1>Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+    like ${kelvinToFahrenheit(st.weather.feelsLike)}F</H1>
+</div>
   </section>
 `;
 const kelvinToFahrenheit = kelvinTemp =>

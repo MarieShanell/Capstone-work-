@@ -191,3 +191,10 @@ div {
   font-size: 2em;
   color: rgb(22, 20, 146);
 }
+
+#textboxid
+{
+    height:100px;
+    width: 350px;
+    font-size:14pt;
+}

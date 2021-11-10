@@ -35,8 +35,8 @@ Listen to music.</p>
 
 <div class= "form">
 <form action="">
-  <label for="question">What did you do to take care of yourself today?</label>
-  <input type="text" name="question">
+  <label for="question">What did you do to take care of yourself today?</label> <br/>
+  <input type="text" name="question" id="textboxid">
 </form>
 </div>
 
