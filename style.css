@@ -165,7 +165,7 @@ div {
     max-width: 25vw;
   } */
 
-​.footer {
+/* ​.footer {
   text-align: center;
   background-color: aqua;
   color: #9E3680;
@@ -173,8 +173,7 @@ div {
   position: fixed;
   bottom: 0px;
 
-}
-
+} */
 .footer {
   position: fixed;
   left: 0;
@@ -197,4 +196,8 @@ div {
     height:100px;
     width: 350px;
     font-size:14pt;
+}
+
+.weather > h1 {
+  color: #9E3680;
 }
