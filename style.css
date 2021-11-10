@@ -58,7 +58,6 @@ div {
 
 
 
-
   //FLEXBOX
 
 #id1 {
@@ -201,3 +200,10 @@ div {
 .weather > h1 {
   color: deeppink ;
 }
+
+/* .resourcepic{
+display: flex;
+justify-content: stretch;
+flex-direction:row-reverse;
+align-self:auto;
+} */
