@@ -10,7 +10,10 @@ export default (st) => html`
 
 
   <section id="homeinfo">
-
+  <div class="weather">
+    <H1>Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
+    like ${kelvinToFahrenheit(st.weather.feelsLike)}F</H1>
+</div>
 <h1>OPTIMAL HEALTH AND WELL-BEING</h1>
     <p>
       Optimal health is a holistic focus with the aim of attaining the best
@@ -54,10 +57,7 @@ We also see the word wellness related with health. Wellness is defined as: the q
    <div><img src="${img2}" alt="soothing pic"/></div>
 </div>
 
-<div>
-    <H1>Weather in ${st.weather.city} ${kelvinToFahrenheit(st.weather.temp)}F, feels
-    like ${kelvinToFahrenheit(st.weather.feelsLike)}F</H1>
-</div>
+
   </section>
 `;
 const kelvinToFahrenheit = kelvinTemp =>
