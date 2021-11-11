@@ -3,9 +3,12 @@ color: rgb(133, 73, 51);
 font-size: 3em;
 text-align: center;
 }
-#homeinfo {
+#homeinfo  {
   font-family: 'Vidaloka', serif;
-  color: rgb(95, 56, 5);
+  color: rgb(117, 75, 20);
+  text-align: center;
+
+
 
 }
 img {
@@ -189,3 +192,5 @@ justify-content: stretch;
 flex-direction:row-reverse;
 align-self:auto;
 } */
+
+
