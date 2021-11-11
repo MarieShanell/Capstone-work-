@@ -37,6 +37,14 @@ Listen to music.</p>
 <form action="">
   <label for="question">What did you do to take care of yourself today?</label> <br/>
   <input type="text" name="question" id="textboxid">
+  <br/>
+  <button id="submit"> SUBMIT
+
+  </button>
+  <p id="val"></p>
+ <style>
+   #val {color:purple;}
+ </style>
 </form>
 </div>
 
